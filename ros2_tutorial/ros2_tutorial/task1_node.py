@@ -12,16 +12,18 @@ class Task1(Node):
         self.get_logger().info('test')
 
     def timer_callback(self):
-        self.get_logger().info('test')
+        self.get_logger().info('publishing twist message')
         '''
         Prefill a Twist Message Here to publish 
         '''
+        
     
 def main(args=None):
     rclpy.init(args=args)
     task1 = Task1()
-    task1.destroy_node()
     rclpy.spin(task1)
+
+    task1.destroy_node()
     rclpy.shutdown()
 
 if __name__=="main":
