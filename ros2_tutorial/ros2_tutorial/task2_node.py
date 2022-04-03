@@ -16,7 +16,13 @@ class Task2(Node):
         '''
         Implement logic to stop the car when there is an obstacle within 5 meters of it
         '''
-        
+        self.get_logger().info('distance from object: {}'.format(msg.range))
+
+        if msg.range <= 5:
+            message = Twist(linear=Vector3(x=0.0, y=0.0, z=0.0),
+                            angular=Vector3(x=0.0, y=0.0, z=0.0))
+
+            self.ebrake_publisher_.publish(message)
     
 def main(args=None):
     rclpy.init(args=args)
