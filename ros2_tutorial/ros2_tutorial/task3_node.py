@@ -12,7 +12,7 @@ class Task3(Node):
         self.vel_subscriber_ = self.create_subscription(Twist,"cmd_vel", self.vel_callback, 10)
         self.laser_subscriber_ = self.create_subscription(Range, 'laser/range', self.laser_callback, 10)
         self.get_logger().info('task3')
-        self.distance = 0
+        self.stopping_distance = 0
 
     def laser_callback(self, msg: Range):
         '''
