@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'task1 = ros2_tutorial.task1_node:main'
+            'task1 = ros2_tutorial.task1_node:main',
+            'task2 = ros2_tutorial.task2_node:main'
         ],
     },
 )
