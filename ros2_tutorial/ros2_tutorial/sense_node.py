@@ -10,9 +10,11 @@ class Sense(Node):
 
     def __init__(self):
         super().__init__('sense')
-        self.ebrake_publisher_ = self.create_publisher(Bool,"/e_brake",10)
-        self.laser_subscriber_ = self.create_subscription(Range, 'laser/range', self.laser_callback, 10)
-        self.range_detected = ""
+        '''
+        Create a subscriber for /laser/range
+        Create a publisher to publish to /e_brake. This should be a Bool message type 
+        Initialise a range_detected variable you can update 
+        '''
 
     def laser_callback(self, msg: Range):
         '''
