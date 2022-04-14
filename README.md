@@ -6,6 +6,7 @@ These currently include:
 - Git/GitHub
 - Python
 - C++
+- ROS
 - ROS2
 
 
