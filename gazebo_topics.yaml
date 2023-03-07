@@ -1,3 +1,5 @@
+# This yaml file is read by the ros_gz_bridge parameter_bridge node that 
+# facilitates transport of messages between gazebo and ROS
 - topic_name: "/model/vehicle_blue/cmd_vel"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "ignition.msgs.Twist"

@@ -11,10 +11,6 @@ RUN apt-get update && apt-get install -y \
     ros-humble-gazebo-ros-pkgs \
     && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /home/$USERNAME/mcav_ws/src
-RUN git clone https://github.com/ToyotaResearchInstitute/velodyne_simulator.git
-
-
 # Create a non-root user with sudo privileges
 ARG USERNAME=mcav
 ARG USER_UID=1000
