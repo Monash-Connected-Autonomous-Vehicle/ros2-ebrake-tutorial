@@ -33,5 +33,5 @@ cd ~/tutorial_ws
 ros2 launch simulation_launch gazebo_playground.launch
 ```
 
-Run gazebo: `ign gazebo -v 4 -r /home/mcav/mcav_ws/src/ros2_tutorial/lidar_playground.sdf`
-Run topic bridge: `ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=$HOME/mcav_ws/src/ros2_tutorial/gazebo_topics.yaml`
+You should see the Gazebo simulator open to a view like this:
+![image](https://user-images.githubusercontent.com/7232997/224651017-a36d1cac-096e-4d8c-aabe-47a4e6fb09dc.png)
