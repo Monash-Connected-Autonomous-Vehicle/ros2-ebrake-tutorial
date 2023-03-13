@@ -59,7 +59,7 @@
 
         <play_pause>true</play_pause>
         <step>true</step>
-        <start_paused>true</start_paused>
+        <start_paused>false</start_paused>
         <service>/world/visualize_lidar_world/control</service>
         <stats_topic>/world/visualize_lidar_world/stats</stats_topic>
 
@@ -171,7 +171,7 @@
       </link>
     </model>
 
-    <model name='vehicle_blue'> <!-- The main car -->
+    <model name='simulated_vehicle'> <!-- The main car -->
       <pose>-15 3 0.325 0 0 0.0</pose>
       <link name='chassis'>
         <pose>-0.151427 -0 0.175 0 -0 0</pose>
@@ -232,7 +232,7 @@
           </geometry>
         </visual>
         <sensor name='gpu_lidar' type='gpu_lidar'>
-          <topic>lidar2</topic>
+          <topic>lidar</topic>
           <update_rate>10</update_rate>
           <lidar>
             <scan>
