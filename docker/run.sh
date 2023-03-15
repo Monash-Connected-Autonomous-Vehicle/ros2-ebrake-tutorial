@@ -61,7 +61,7 @@ else # no nvidia-container-runtime
     if [ "$(uname -m)" = "aarch64" ] || [ "$(uname -m)" = "arm64" ]; then # arm
         CONTAINER_NAME=ros2_tutorial_arm
         IMAGE_NAME=ros2_tutorial_arm
-        DOCKER_FILE=docker/Dockerfile.px2
+        DOCKER_FILE=docker/Dockerfile
         PLATFORM=linux/arm64
     else # x86_64
         echo "not arm"
