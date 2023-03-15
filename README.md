@@ -29,7 +29,7 @@ Please open a new terminal window or tab. With ROS2, you don't want to run code 
 ```
 cd ~/tutorial_ws
 . install/setup.bash
-ros2 launch simulation_launch gazebo_playground.launch
+ros2 launch simulation_launch gazebo_playground.launch.xml
 ```
 
 You should see the Gazebo simulator open to a view like this:
