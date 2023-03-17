@@ -51,7 +51,7 @@ if [[ $(docker info | grep Runtimes) =~ nvidia ]] ; then # computer has nvidia-c
     echo "GPU available"
     CONTAINER_NAME=ros2_tutorial_cuda
     IMAGE_NAME=ghcr.io/mcav/ros2_tutorial:main
-    DOCKER_FILE=docker/Dockerfile.gpu
+    DOCKER_FILE=docker/Dockerfile
     GPU_ON=true
     PLATFORM=linux/amd64
 else # no nvidia-container-runtime
