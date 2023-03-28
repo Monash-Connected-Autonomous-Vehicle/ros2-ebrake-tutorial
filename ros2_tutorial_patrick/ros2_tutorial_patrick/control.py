@@ -16,7 +16,7 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import String
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import TwistStamped
 from std_msgs.msg import Bool
 
 
@@ -27,7 +27,7 @@ class Control(Node):
         super().__init__('control')
         self._break_active = False
         self.subscriber = self.create_subscription(Bool, '/ebrake_is_active', self._break_car, 10)
-        self._publisher = self.create_publisher(Twist, '/simulated_vehicle/cmd_vel', 10)
+        self._publisher = self.create_publisher(TwistStamped, '/simulated_vehicle/cmd_vel', 10)
 
         timer_period = 0.5  # seconds
         self.acc_timer = self.create_timer(timer_period, self._acc_callback)
@@ -51,14 +51,14 @@ class Control(Node):
 
     def _drive_command(self, linear_acc, angular_acc={"x": 0, "y": 0, "z": 0}):
         # vectors in dict form
-        drive_msg = Twist()
-        drive_msg.linear.x = float(linear_acc["x"])
-        drive_msg.linear.y = float(linear_acc["y"])
-        drive_msg.linear.z = float(linear_acc["z"])
+        drive_msg = TwistStamped()
+        drive_msg.twist.linear.x = float(linear_acc["x"])
+        drive_msg.twist.linear.y = float(linear_acc["y"])
+        drive_msg.twist.linear.z = float(linear_acc["z"])
 
-        drive_msg.angular.x = float(angular_acc["x"])
-        drive_msg.angular.y = float(angular_acc["y"])
-        drive_msg.angular.z = float(angular_acc["z"])
+        drive_msg.twist.angular.x = float(angular_acc["x"])
+        drive_msg.twist.angular.y = float(angular_acc["y"])
+        drive_msg.twist.angular.z = float(angular_acc["z"])
         self._publisher.publish(drive_msg)
 
 

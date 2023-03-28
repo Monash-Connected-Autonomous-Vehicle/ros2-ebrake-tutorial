@@ -36,7 +36,7 @@ class Sense(Node):
         MARGIN_FOR_ERROR = 0
         points_too_close = 0
         for point in points:
-            if self._absolute_distance_from_point(point) < STOPPING_DISTANCE:
+            if self._is_valid_point(point):
                 points_too_close += 1
 
         if points_too_close > MARGIN_FOR_ERROR: # arbitrary margin for error
@@ -51,6 +51,11 @@ class Sense(Node):
         y = point.y
         z = point.z
         return math.sqrt(x**2 + y**2 + z**2)
+
+    def _is_valid_point(self, point):
+        if point.y < 0.5 and point.y > -0.5 and point.x > 0 and point.x < 5 and point.z < 1:
+            self.get_logger().info(f"x: {point.x} y: {point.y} z: {point.z}")
+            return True
 
 def main(args=None):
     rclpy.init(args=args)
