@@ -31,12 +31,14 @@ class MinimalPublisher(Node):
         msg.data = False
         dist = None
         for point in self.pc2:
-            dist = (point.x**2 + point.y**2 + point.z**2)**0.5
-            if 1 < dist < 5:
-                msg.data = True
-                break
+            if point.x > 0:
+            	if abs(point.y) < 0.5:
+                    dist = (point.x**2 + point.y**2)**0.5
+                    if 1 < dist < 5:
+                        msg.data = True
+                        break
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s" m away' % str((msg.data, dist)))
+        self.get_logger().info('Publishing: "%s" m ' % str((msg.data, (point.x,point.y))))
         self.i += 1
 
 

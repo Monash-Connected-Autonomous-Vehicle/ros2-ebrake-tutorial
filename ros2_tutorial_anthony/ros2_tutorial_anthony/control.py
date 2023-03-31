@@ -1,14 +1,14 @@
 import rclpy
 from rclpy.node import Node
 
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import TwistStamped
 from std_msgs.msg import Bool
 
 class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('control_vel')
-        self.publisher_ = self.create_publisher(Twist, '/simulated_vehicle/cmd_vel', 10)
+        self.publisher_ = self.create_publisher(TwistStamped, '/simulated_vehicle/cmd_vel', 10)
         self.subscriber_ = self.create_subscription(Bool
         ,'/ebrake_is_active'
         ,self.listener_callback
@@ -24,14 +24,14 @@ class MinimalPublisher(Node):
     	self.get_logger().info('I received E-brake is %s' %msg.data)
     
     def timer_callback(self):
-        msg = Twist()
+        msg = TwistStamped()
         if not self.e_brake:
-            msg.linear.x = 3.0
+            msg.twist.linear.x = 3.0
             self.publisher_.publish(msg)
             self.get_logger().info('Publishing: Linear x and Angular z:  %s' % str((msg.linear.x,msg.angular.z)))
         else:
-            msg.linear.x = 0.0
-            msg.angular.z = 0.0
+            msg.twist.linear.x = 0.0
+            msg.twist.angular.z = 0.0
             self.publisher_.publish(msg)
             self.get_logger().info('Ebrake is active')
         self.i += 1
