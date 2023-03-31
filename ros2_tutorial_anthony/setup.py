@@ -1,5 +1,7 @@
 from setuptools import setup
 
+from glob import glob
+
 package_name = 'ros2_tutorial_anthony'
 
 setup(

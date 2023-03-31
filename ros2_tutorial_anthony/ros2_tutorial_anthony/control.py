@@ -28,7 +28,7 @@ class MinimalPublisher(Node):
         if not self.e_brake:
             msg.twist.linear.x = 3.0
             self.publisher_.publish(msg)
-            self.get_logger().info('Publishing: Linear x and Angular z:  %s' % str((msg.linear.x,msg.angular.z)))
+            self.get_logger().info('Publishing: Linear x and Angular z:  %s' % str((msg.twist.linear.x,msg.twist.angular.z)))
         else:
             msg.twist.linear.x = 0.0
             msg.twist.angular.z = 0.0
