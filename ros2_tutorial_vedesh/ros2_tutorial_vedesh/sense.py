@@ -23,8 +23,8 @@ class SenseNode(Node):
         msg = Bool()
         msg.data = False
         for p in self.points:
-            if p.x > 0:
-                if abs(p.y)<0.5:
+            if (p.x) > 0: #Only consider points in the front (pos x direction)
+                if abs(p.y)<0.5: #  only when the range is within -0.5<y0.5
                     dist = (p.x**2 + p.y**2)**0.5 # if obstacle within 5m radius
                     if 1 < dist < 5:
                         print("Object Detected")
