@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mouhidi216/tutorial_ws/install/simulation_launch/lib/python3.10/site-packages",
+        "/home/mouhidi216/tutorial_ws/install/ros2_tutorial_Mouhid/lib/python3.10/site-packages",
+        "/home/mouhidi216/ros2_ws/build/my_py_pkg",
+        "/home/mouhidi216/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mouhidi216/tutorial_ws/install/simulation_launch/lib/python3.10/site-packages",
+        "/home/mouhidi216/tutorial_ws/install/ros2_tutorial_Mouhid/lib/python3.10/site-packages",
+        "/home/mouhidi216/ros2_ws/build/my_py_pkg",
+        "/home/mouhidi216/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
