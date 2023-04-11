@@ -1,0 +1,174 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdefe399370>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdefe399370>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fdefe3999d0>)
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.163s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.163s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_tutorial_vedesh) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_tutorial_vedesh' with type 'ros.ament_python' and name 'ros2_tutorial_vedesh'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(simulation_launch) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'simulation_launch' with type 'ros.ament_python' and name 'simulation_launch'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'ros2_tutorial_vedesh' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_tutorial_vedesh' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh', 'merge_install': False, 'path': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh', 'symlink_install': False, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'simulation_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'simulation_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/simulation_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch', 'merge_install': False, 'path': '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/simulation_launch', 'symlink_install': False, 'test_result_base': None}
+[0.206s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.210s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh' with build type 'ament_python'
+[0.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_tutorial_vedesh', 'ament_prefix_path')
+[0.215s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/ament_prefix_path.ps1'
+[0.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/ament_prefix_path.dsv'
+[0.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/ament_prefix_path.sh'
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.227s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/simulation_launch' with build type 'ament_python'
+[0.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_launch', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.ps1'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.dsv'
+[0.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/ament_prefix_path.sh'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.436s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh'
+[0.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.642s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/simulation_launch'
+[0.644s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.644s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_tutorial_vedesh build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/simulation_launch': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simulation_launch build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/simulation_launch/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/simulation_launch/install.log --single-version-externally-managed
+[1.296s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh' returned '0': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_tutorial_vedesh build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed
+[1.300s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh' for CMake module files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh' for CMake config files
+[1.301s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/bin'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/pkgconfig/ros2_tutorial_vedesh.pc'
+[1.302s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages'
+[1.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_tutorial_vedesh', 'pythonpath')
+[1.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/pythonpath.ps1'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/pythonpath.dsv'
+[1.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/hook/pythonpath.sh'
+[1.305s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/bin'
+[1.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_tutorial_vedesh)
+[1.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/package.ps1'
+[1.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/package.dsv'
+[1.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/package.sh'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/package.bash'
+[1.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/package.zsh'
+[1.310s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/colcon-core/packages/ros2_tutorial_vedesh)
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch' for CMake module files
+[1.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/simulation_launch' returned '0': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simulation_launch build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/simulation_launch/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/simulation_launch/install.log --single-version-externally-managed
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch' for CMake config files
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/lib'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/bin'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/lib/pkgconfig/simulation_launch.pc'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/lib/python3.8/site-packages'
+[1.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulation_launch', 'pythonpath')
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/pythonpath.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/pythonpath.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/hook/pythonpath.sh'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/bin'
+[1.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulation_launch)
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/package.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/package.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/package.sh'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/simulation_launch/package.zsh'
+[1.352s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/simulation_launch/share/colcon-core/packages/simulation_launch)
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.352s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.358s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.358s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.359s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.359s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/local_setup.ps1'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/_local_setup_util_ps1.py'
+[1.362s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/setup.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/local_setup.sh'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/_local_setup_util_sh.py'
+[1.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/setup.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/local_setup.bash'
+[1.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/setup.bash'
+[1.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/local_setup.zsh'
+[1.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/setup.zsh'

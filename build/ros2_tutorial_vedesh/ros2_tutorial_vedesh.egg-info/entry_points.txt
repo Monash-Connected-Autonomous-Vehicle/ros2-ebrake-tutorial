@@ -1,0 +1,4 @@
+[console_scripts]
+control = ros2_tutorial_vedesh.control:main
+sense = ros2_tutorial_vedesh.sense:main
+

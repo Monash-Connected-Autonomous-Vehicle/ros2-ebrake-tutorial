@@ -1,0 +1,31 @@
+[0.811s] Invoking command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_tutorial_vedesh build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed
+[1.017s] running egg_info
+[1.017s] writing ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/PKG-INFO
+[1.017s] writing dependency_links to ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/dependency_links.txt
+[1.018s] writing entry points to ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/entry_points.txt
+[1.018s] writing requirements to ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/requires.txt
+[1.018s] writing top-level names to ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/top_level.txt
+[1.045s] reading manifest file '../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt'
+[1.045s] writing manifest file '../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt'
+[1.046s] running build
+[1.046s] running build_py
+[1.046s] copying ros2_tutorial_vedesh/control.py -> /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh
+[1.046s] running install
+[1.046s] running install_lib
+[1.047s] creating /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh
+[1.047s] copying /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/control.py -> /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh
+[1.047s] copying /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/__init__.py -> /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh
+[1.047s] copying /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/sense.py -> /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh
+[1.048s] byte-compiling /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh/control.py to control.cpython-38.pyc
+[1.049s] byte-compiling /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh/__init__.py to __init__.cpython-38.pyc
+[1.049s] byte-compiling /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh/sense.py to sense.cpython-38.pyc
+[1.049s] running install_data
+[1.050s] creating /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/launch
+[1.050s] copying launch/launch.launch.xml -> /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh/launch
+[1.050s] running install_egg_info
+[1.051s] Copying ../build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info to /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages/ros2_tutorial_vedesh-0.0.0-py3.8.egg-info
+[1.052s] running install_scripts
+[1.066s] Installing control script to /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/ros2_tutorial_vedesh
+[1.066s] Installing sense script to /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/ros2_tutorial_vedesh
+[1.066s] writing list of installed files to '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log'
+[1.084s] Invoked command in '/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh' returned '0': PS1=\[]0;\u@docker: \w\]\[[01;32m\]\u@docker\[[00m\]:\[[01;34m\]\w\[[00m\]$ PYTHONPATH=/home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ros2_tutorial_vedesh build --build-base /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/mcav/mcav_ws/src/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed

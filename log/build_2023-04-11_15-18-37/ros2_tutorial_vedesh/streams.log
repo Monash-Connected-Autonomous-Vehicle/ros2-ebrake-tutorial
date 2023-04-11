@@ -1,0 +1,73 @@
+Invoking command in '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh': PYTHONPATH=/home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages: /usr/bin/python3 setup.py egg_info --egg-base /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh build --build-base /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed bdist_egg --dist-dir /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/dist
+running egg_info
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info
+writing /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/PKG-INFO
+writing dependency_links to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/dependency_links.txt
+writing entry points to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/entry_points.txt
+writing requirements to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/requires.txt
+writing top-level names to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/top_level.txt
+writing manifest file '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt'
+reading manifest file '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt'
+writing manifest file '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh
+copying ros2_tutorial_vedesh/control.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh
+copying ros2_tutorial_vedesh/__init__.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh
+copying ros2_tutorial_vedesh/sense.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh
+running install
+running install_lib
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/control.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/__init__.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/sense.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh/control.py to control.cpython-36.pyc
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh/sense.py to sense.cpython-36.pyc
+running install_data
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ament_index
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ament_index/resource_index
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ament_index/resource_index/packages
+copying resource/ros2_tutorial_vedesh -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ament_index/resource_index/packages
+copying package.xml -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/share/ros2_tutorial_vedesh
+running install_egg_info
+Copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages/ros2_tutorial_vedesh-0.0.0-py3.6.egg-info
+running install_scripts
+Installing control script to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/ros2_tutorial_vedesh
+Installing sense script to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/ros2_tutorial_vedesh
+writing list of installed files to '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log'
+running bdist_egg
+installing library code to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/control.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/__init__.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/lib/ros2_tutorial_vedesh/sense.py -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh/control.py to control.cpython-36.pyc
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh/__init__.py to __init__.cpython-36.pyc
+byte-compiling /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/ros2_tutorial_vedesh/sense.py to sense.cpython-36.pyc
+installing package data to /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg
+running install_data
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ament_index
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ament_index/resource_index
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ament_index/resource_index/packages
+copying resource/ros2_tutorial_vedesh -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ament_index/resource_index/packages
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ros2_tutorial_vedesh
+copying package.xml -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/share/ros2_tutorial_vedesh
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/PKG-INFO -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/SOURCES.txt -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/dependency_links.txt -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/entry_points.txt -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/requires.txt -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/top_level.txt -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/ros2_tutorial_vedesh.egg-info/zip-safe -> /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg/EGG-INFO
+creating /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/dist
+creating '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/dist/ros2_tutorial_vedesh-0.0.0-py3.6.egg' and adding '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg' to it
+removing '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/civil/mcav_autonomy/ros2-ebrake-tutorial/ros2_tutorial_vedesh' returned '0': PYTHONPATH=/home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh/lib/python3.6/site-packages: /usr/bin/python3 setup.py egg_info --egg-base /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh build --build-base /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/build install --prefix /home/civil/mcav_autonomy/ros2-ebrake-tutorial/install/ros2_tutorial_vedesh --record /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/install.log --single-version-externally-managed bdist_egg --dist-dir /home/civil/mcav_autonomy/ros2-ebrake-tutorial/build/ros2_tutorial_vedesh/dist
